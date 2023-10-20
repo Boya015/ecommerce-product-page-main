@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/media.css"/>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <body>
+    <header>
+      <div id="menu-icon">
+        <img id="close_menu" 
+             src="images/icon-close.svg" 
+             aria-hidden="true"
+             alt="icon hamburger close menu">
+        <img id="hamburger_menu" 
+             src="images/icon-menu.svg" 
+             alt="icon hamburger menu">
+      </div>
+      <div class="logo">
+        <img class="Sneaker_logo" src="images/logo.svg" alt="Sneakers Logo">
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#">Collections</a></li>
+            <li class="navbar-item"><a href="#">Men</a></li>
+            <li class="navbar-item"><a href="#">Women</a></li>
+            <li class="navbar-item"><a href="#">About</a></li>
+            <li class="navbar-item"><a href="#">Contact</a></li>
+        </ul> 
+        <div class="avatar-cart">
+          <img class="image-cart" src="images/icon-cart.svg" alt="cart svg">
+          <img class="image-avatar" src="images/image-avatar.png" alt="avatar">
+        </div>
+    </nav>
+    
+
+    </header>
+    <main>
+        <section class="Content">
+            <p>Sneaker Company</p>
+            <h1>Limited Edition Sneakers</h1> 
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+              durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+             
+            
+            <div class="checkout-div">
+              <span class="price">$125.00 50%
+                $250.00</span>
+              
+              <div class="quantity-control">
+                  <button class="quantity-button minus">-</button>
+                  <span class="quantity">0</span>
+                  <button class="quantity-button plus">+</button>
+                  <button>Add to cart</button>
+              </div>
+              
+          </div>
+           </section>
+
+           <picture>
+            <!-- Mobile Image -->
+            <source srcset="images/image-product-1.jpg" media="(max-width: 767px)">
+            <img class="mobile_pic" src="images/image-product-1.jpg">
+          </picture>
+         </main>
+    <footer>
+        <!-- Footer content goes here -->
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Your Name Here</a>
+        </div>
+    </footer>
+  </body>
+</html>

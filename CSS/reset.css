@@ -1,0 +1,49 @@
+/* Reset all margins, padding, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background defaults */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Remove list styles (ul, ol) and list item padding */
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Remove default hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove underlines from links */
+a:hover {
+    text-decoration: none;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Remove outlines for clickable elements */
+a, button, input, select, textarea {
+    outline: none;
+}
+
+/* Remove the default focus ring for keyboard navigation */
+:focus {
+    outline: none;
+}
+
+/* Additional resets or styles can be added based on your project needs */

@@ -1,0 +1,152 @@
+/* Media query for screens with a maximum width of 320px */
+@media (max-width: 320px) {
+    /* Your CSS styles for screens up to 320px wide go here */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .Sneaker_logo {
+        margin-top: -4px;
+    }
+    
+    #close_menu {
+        display: none;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .image-avatar {
+        height: 20px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    picture {
+        order: -1;
+        width: 100%; /* Adjust the container width as needed */
+        max-width: 100%; /* Ensure the image does not exceed the container width */
+        height: 270px; /* Adjust the desired height for cropping */
+        overflow: hidden; /* Hides the overflow of the image */
+    }
+
+    .mobile_pic {
+        width: -webkit-fill-available;
+    }
+
+    .Content {
+        padding: 20px;
+    }
+}
+
+/* Media query for screens with a minimum width of 321px and a maximum width of 375px */
+@media (min-width: 321px) and (max-width: 375px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .Sneaker_logo {
+        margin-top: -4px;
+    }
+    
+    #close_menu {
+        display: none;
+    }
+    
+    .navbar-list {
+        display: none;
+    }
+
+    .image-avatar {
+        height: 20px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    picture {
+        order: -1;
+        width: 100%; /* Adjust the container width as needed */
+        max-width: 100%; /* Ensure the image does not exceed the container width */
+        height: 325px;
+        overflow: hidden; /* Hides the overflow of the image */
+    }
+
+    .mobile_pic {
+        width: -webkit-fill-available;
+    }
+
+    .Content {
+        padding: 20px;
+    }
+}
+
+/* Media query for screens with a minimum width of 376px and a maximum width of 768px */
+@media (min-width: 376px) and (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .Sneaker_logo {
+        margin-top: -4px;
+    }
+    
+    #close_menu {
+        display: none;
+    }
+    
+    .navbar-list {
+        display: none;
+    }
+
+    
+    .image-avatar {
+        height: 20px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    picture {
+        order: -1;
+        width: 100%; /* Adjust the container width as needed */
+        max-width: 100%; /* Ensure the image does not exceed the container width */
+        height: 380px;
+        overflow: hidden; /* Hides the overflow of the image */
+    }
+    
+    .mobile_pic {
+        width: -webkit-fill-available;
+    }
+
+    .Content {
+        padding: 20px;
+    }
+}
+
+/* Media query for screens with a minimum width of 769px and a maximum width of 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Your CSS styles for screens between 769px and 1024px wide go here */
+}
+
+/* Media query for screens with a minimum width of 1025px and a maximum width of 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Your CSS styles for screens between 1025px and 1440px wide go here */
+}
