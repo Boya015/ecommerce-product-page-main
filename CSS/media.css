@@ -8,6 +8,10 @@
         padding: 10px 20px;
     }
 
+    .logo {
+        margin-right: 3em;
+    }
+
     .Sneaker_logo {
         margin-top: -4px;
     }
@@ -17,6 +21,10 @@
     }
 
     .navbar-list {
+        display: none;
+    }
+
+    .navbar-list-mobile {
         display: none;
     }
 
@@ -44,6 +52,37 @@
     .Content {
         padding: 20px;
     }
+
+    p {
+        margin-bottom: 1em;
+    }
+    
+
+    .price {
+        display: flex;
+    gap: 4em;
+    padding-bottom: 10px;
+    }
+
+    .current-price {
+        margin-right: -2em;
+    }
+
+    .discount {
+        margin-top: 4px;
+    }
+
+    .initial-price {
+        margin-top: 4px;
+    }
+
+    .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 /* Media query for screens with a minimum width of 321px and a maximum width of 375px */
@@ -58,12 +97,20 @@
     .Sneaker_logo {
         margin-top: -4px;
     }
+
+    .logo {
+        margin-right: 7em;
+    }
     
     #close_menu {
         display: none;
     }
     
     .navbar-list {
+        display: none;
+    }
+
+    .navbar-list-mobile {
         display: none;
     }
 
@@ -91,6 +138,36 @@
     .Content {
         padding: 20px;
     }
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    .price {
+        display: flex;
+        gap: 4em;
+        padding-bottom: 10px;
+    }
+
+    .current-price {
+        margin-right: -2em;
+    }
+
+    .discount {
+        margin-top: 4px;
+    }
+
+    .initial-price {
+        margin-top: 4px;
+    }
+
+    .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 /* Media query for screens with a minimum width of 376px and a maximum width of 768px */
@@ -105,12 +182,20 @@
     .Sneaker_logo {
         margin-top: -4px;
     }
+
+    .logo {
+        margin-right: 10em;
+    }
     
     #close_menu {
         display: none;
     }
     
     .navbar-list {
+        display: none;
+    }
+
+    .navbar-list-mobile {
         display: none;
     }
 
@@ -138,6 +223,36 @@
 
     .Content {
         padding: 20px;
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    .price {
+        display: flex;
+        gap: 7em;
+    padding-bottom: 10px;
+    }
+
+    .current-price {
+        margin-right: -2em;
+    }
+
+    .discount {
+        margin-top: 4px;
+    }
+
+    .initial-price {
+        margin-top: 4px;
+    }
+
+    .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 
