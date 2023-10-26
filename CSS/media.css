@@ -38,7 +38,13 @@
          
     }
 
+    .image-thumbnail {
+        display: none;
+    }
     
+    hr {
+        display: none;
+    }
 
     main {
         display: flex;
@@ -92,6 +98,16 @@
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
+    .Atc-btn {
+        background-color: orange;
+        width: 279px;
+        padding-top: 5px;
+        margin-top: 1rem;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        color: white;
+    }
 }
 
 /* Media query for screens with a minimum width of 321px and a maximum width of 375px */
@@ -109,6 +125,10 @@
 
     .logo {
         margin-right: 4em;
+    }
+
+    .image-thumbnail {
+        display: none;
     }
     
     #close_menu {
@@ -130,6 +150,10 @@
 
     .image-avatar {
         height: 20px;
+    }
+
+    hr {
+        display: none;
     }
 
     main {
@@ -184,6 +208,16 @@
         padding-bottom: 5px;
         width: 280px;
     }
+
+    .Atc-btn {
+        background-color: orange;
+        width: 280px;
+        padding-top: 5px;
+        margin-top: 1rem;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        color: white;
+    }
 }
 
 /* Media query for screens with a minimum width of 376px and a maximum width of 768px */
@@ -211,6 +245,10 @@
         display: none;
     }
 
+    .image-thumbnail {
+        display: none;
+    }
+
     .navbar-list-mobile {
         display: none;
     }
@@ -224,6 +262,10 @@
     
     .image-avatar {
         height: 20px;
+    }
+
+    hr {
+        display: none;
     }
 
     main {
@@ -276,16 +318,215 @@
         justify-content: space-around;
         padding-top: 5px;
         padding-bottom: 5px;
-        width: 280px;
+        width: 350px;
+    }
+
+    .Atc-btn {
+        background-color: orange;
+        width: 352px;
+        padding-top: 5px;
+        margin-top: 1rem;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        color: white;
     }
 }
 
 /* Media query for screens with a minimum width of 769px and a maximum width of 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
     /* Your CSS styles for screens between 769px and 1024px wide go here */
+
+    header {
+    display: flex;
+  }
+
+  .logo {
+    margin: 35px;
+    margin-right: 3rem;
+    margin-left: 5rem;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex: 1;
+  }
+
+  .navbar-list {
+    display: flex;
+    gap: 2rem;
+    margin-top: 17px;
+  }
+
+  .avatar-cart {
+    margin-right: 5rem;
+  }
+
+  .image-avatar {
+    height: 30px;
+}
+
+  hr {
+    display: block;
+     margin-left: 5rem;
+  }
+    
+
+  main{
+  display: grid;
+  grid-template-columns: 52% 50%;
+  padding-bottom: 3rem;
+  }
+
+  picture {
+    padding-left: 2rem;
+  }
+
+   .mobile_pic {
+    height: 20rem;
+    width: 27rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 50px;
+}
+
+.quantity-control {
+    display: flex;
+    gap: 1rem;
+}
+
+.quantity {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1rem;
+}
+.discount {
+    margin-right: 7rem;
+    margin-left: 4rem;
+}
+
+.image-thumbnail{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.thumbnail_pic {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+  
 }
 
 /* Media query for screens with a minimum width of 1025px and a maximum width of 1440px */
 @media (min-width: 1025px) and (max-width: 1440px) {
     /* Your CSS styles for screens between 1025px and 1440px wide go here */
+
+    
+    header {
+        display: flex;
+      }
+
+      .logo {
+        margin: 35px;
+        margin-right: 3rem;
+        margin-left: 5rem;
+      }
+    
+      #menu-icon {
+        display: none;
+      }
+
+      .navbar {
+        display: flex;
+        flex: 1;
+      }
+    
+      .navbar-list {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+      }
+
+      .avatar-cart {
+        margin-right: 5rem;
+      }
+
+      .image-avatar {
+        height: 30px;
+    }
+
+    hr {
+        margin-left: 5rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 47% 51%;
+        padding-bottom: 3rem;
+    }
+
+    picture {
+        margin-top: 3rem;
+    }
+
+    .mobile_pic {
+        height: 20rem;
+    width: 27rem;
+    padding-right: -8px;
+    margin-left: 6rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    }
+
+    section {
+        padding: 50px;
+        padding-right: 10rem;
+    }
+
+    .quantity-control {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .quantity {
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 1rem;
+    }
+
+    .discount {
+        margin-right: 16rem;
+        margin-left: 2rem;
+    }
+
+    .image-thumbnail{
+        display: flex;
+        justify-content: space-evenly;
+       padding-right: 5rem;
+       padding-left: 5rem;
+       gap: 2rem;
+    }
+
+    .thumbnail_pic {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 10px;
+    }
 }
