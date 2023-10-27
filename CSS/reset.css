@@ -39,6 +39,7 @@ button {
 /* Remove outlines for clickable elements */
 a, button, input, select, textarea {
     outline: none;
+    text-decoration: none;
 }
 
 /* Remove the default focus ring for keyboard navigation */

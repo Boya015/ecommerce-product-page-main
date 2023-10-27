@@ -23,15 +23,16 @@
     <header>
       <!-- mobile -->
       <div id="menu-icon">
-          <img id="close_menu" src="images/icon-close.svg" aria-hidden="true" alt="icon hamburger close menu">
+          
           <img id="hamburger_menu" src="images/icon-menu.svg" alt="icon hamburger menu">
           <nav class="navbar-mobile">
             <ul class="navbar-list-mobile">
-                <li class="navbar-item"><a href="#">Collections</a></li>
-                <li class="navbar-item"><a href="#">Men</a></li>
-                <li class="navbar-item"><a href="#">Women</a></li>
-                <li class="navbar-item"><a href="#">About</a></li>
-                <li class="navbar-item"><a href="#">Contact</a></li>
+              <img id="close_menu" src="images/icon-close.svg" aria-hidden="true" alt="icon hamburger close menu">
+                <li class="navbar-item-mobile"><a href="#" class="text-decoration-none">Collections</a></li>
+                <li class="navbar-item-mobile"><a href="#" class="text-decoration-none">Men</a></li>
+                <li class="navbar-item-mobile"><a href="#" class="text-decoration-none">Women</a></li>
+                <li class="navbar-item-mobile"><a href="#" class="text-decoration-none">About</a></li>
+                <li class="navbar-item-mobile"><a href="#" class="text-decoration-none">Contact</a></li>
             </ul>
       </div>
       <div class="logo">
@@ -39,15 +40,19 @@
       </div>
       <nav class="navbar">
           <ul class="navbar-list">
-              <li class="navbar-item"><a href="#">Collections</a></li>
-              <li class="navbar-item"><a href="#">Men</a></li>
-              <li class="navbar-item"><a href="#">Women</a></li>
-              <li class="navbar-item"><a href="#">About</a></li>
-              <li class="navbar-item"><a href="#">Contact</a></li>
+              <li class="navbar-item"><a href="#" class="text-decoration-none">Collections</a></li>
+              <li class="navbar-item"><a href="#" class="text-decoration-none">Men</a></li>
+              <li class="navbar-item"><a href="#" class="text-decoration-none">Women</a></li>
+              <li class="navbar-item"><a href="#" class="text-decoration-none">About</a></li>
+              <li class="navbar-item"><a href="#" class="text-decoration-none">Contact</a></li>
           </ul>
           <div class="avatar-cart">
               <img class="image-cart" src="images/icon-cart.svg" alt="cart svg">
               <img class="image-avatar" src="images/image-avatar.png" alt="avatar">
+              <div id="basket">
+                <h1>cart</h1>
+                <p>your cart is empty.</p>
+              </div>
           </div>
       </nav>
       
@@ -108,6 +113,6 @@
           Coded by <a href="#">Your Name Here</a>
         </div>
     </footer>
-   
+    <script src="script.js"></script>
   </body>
 </html>

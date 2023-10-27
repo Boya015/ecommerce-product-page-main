@@ -21,9 +21,14 @@ body {
     font-weight: 500;
 }
 
+.text-decoration-none {
+    color: black;
+}
+
 h1 {
     font-weight: 700;
 }
+
 
 .content-paragraph {
     color: hsl(220, 14%, 75%);
@@ -75,5 +80,7 @@ hr {
 .attribution {
     display: none;
 }
+
+
 
     
