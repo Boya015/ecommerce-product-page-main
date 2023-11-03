@@ -79,8 +79,20 @@ hr {
 
 .attribution {
     display: none;
+    grid-area: footer;
 }
 
+#basket {
+    display: none;
+    
+}
+
+.cart-heading {
+    font-size: large;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
 
 
     
