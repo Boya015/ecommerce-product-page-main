@@ -1,13 +1,13 @@
 :root {
-    --Orange: hsl(26, 100%, 55%);
-    --Pale orange: hsl(25, 100%, 94%);
-    --Very dark blue: hsl(220, 13%, 13%);
-    --Dark grayish blue: hsl(219, 9%, 45%);
-    --Grayish blue: hsl(220, 14%, 75%);
-    --Light grayish blue: hsl(223, 64%, 98%);
-    --White: hsl(0, 0%, 100%);
-    --Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%);
-    --font-family: 'Helvetica Neue', sans-serif;
+    ---Orange: hsl(26, 100%, 55%);
+    ---Pale orange: hsl(25, 100%, 94%);
+    ---Very dark blue: hsl(220, 13%, 13%);
+    ---Dark grayish blue: hsl(219, 9%, 45%);
+    ---Grayish blue: hsl(220, 14%, 75%);
+    ---Light grayish blue: hsl(223, 64%, 98%);
+    ---White: hsl(0, 0%, 100%);
+    ---Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%);
+    ---font-family: 'Helvetica Neue', sans-serif;
     }
 
 
@@ -82,8 +82,8 @@ hr {
     grid-area: footer;
 }
 
-#basket {
-    display: none;
+#Modal {
+    /* display: none; */
     
 }
 
@@ -94,5 +94,50 @@ hr {
     left: 1rem;
 }
 
+.modal-img {
+    height: 2rem;
+}
 
-    
+.Modal-checkout {
+    width: 13rem;
+    margin-left: -2rem;
+    display: flex;
+}
+
+.trash_bin {
+    position: relative;
+    left: 170px;
+    bottom: 17px;
+}
+
+.amountofsneakers {
+    font-size: small;
+}
+
+.sneakerparagraph {
+    font-size: small;
+}
+
+.box1 {
+    line-height: 8px;
+    margin-left: 8px;
+}
+
+.checkout-btn {
+    margin-left: -31px;
+    margin-top: 5px;
+    width: 224px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.cart-empty {
+    display: none;
+}
+
