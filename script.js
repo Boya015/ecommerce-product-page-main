@@ -6,7 +6,6 @@ var cartItemNumber = document.getElementById("cart-item-number");
 var numberAmount = document.querySelector(".number-amount");
 var plusButton = document.getElementById("plus_button");
 var minusButton = document.getElementById("minus_button");
-var thumbnailPics = document.querySelectorAll(".thumbnail_pic");
 var mobilePic = document.querySelector(".mobile_pic");
 var amountOfSneakers = document.querySelector(".amountofsneakers");
 var trashbin = document.querySelector(".trash_bin");
@@ -15,6 +14,7 @@ var modalAmountOfSneakers = document.querySelector(".amountofsneakers");
 var checkoutBtn = document.querySelector(".checkout-btn");
 var carticon = document.querySelector(".image-cart");
 var Modal = document.getElementById("Modal");
+var totalAmountElement = document.querySelector(".totalamount");
 
 
 hamburgerMenu.addEventListener("click", function() {
@@ -117,23 +117,7 @@ atcButton.addEventListener("click", function() {
     
     amountOfSneakers.innerText = `$${pricePerSneaker.toFixed(2)} x ${cartItemNumber.innerText}`;
 
-    // Find the elements in the modal
     
-    
-
-    // Check if the cart is empty
-    if (currentCartItemValue > 0) {
-        // Show the checkout modal with updated price
-        modalAmountOfSneakers.innerText = `$${pricePerSneaker.toFixed(2)} x ${currentCartItemValue} = $${totalPrice.toFixed(2)}`;
-        checkoutBtn.style.display = "block";
-        cartEmptyMessage.style.display = "none";
-    } else {
-        // Show the cart is empty message
-        modalAmountOfSneakers.innerText = "";
-        checkoutBtn.style.display = "none";
-        cartEmptyMessage.style.display = "block";
-    }
-
 
     // You can add additional logic for the checkout process here //
 });

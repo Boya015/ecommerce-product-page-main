@@ -28,6 +28,8 @@
         
     }
 
+
+
     .navbar-list-mobile {
     display: none;
     position: absolute;
@@ -114,7 +116,7 @@
         width: -webkit-fill-available;
     }
 
-    .Content {
+    .section {
         padding: 20px;
     }
 
@@ -209,6 +211,19 @@
        line-height: 3rem;
     }
 
+    .previousicon {
+        position: relative;
+        top: 10em;
+        left: 2em;
+    }
+
+    .nexticon {
+        position: relative;
+        top: 10em;
+        left: 17em;
+}
+    
+
     #Modal {
         position: absolute;
         z-index: 1;
@@ -270,7 +285,7 @@
         width: -webkit-fill-available;
     }
 
-    .Content {
+    section {
         padding: 20px;
     }
 
@@ -317,6 +332,7 @@
     }
 }
 
+
 /* Media query for screens with a minimum width of 376px and a maximum width of 768px */
 @media (min-width: 376px) and (max-width: 768px) {
     header {
@@ -325,6 +341,7 @@
         align-items: center;
         padding: 10px 20px;
     }
+
 
     .Sneaker_logo {
         margin-top: -4px;
@@ -502,6 +519,7 @@
     display: none;
   }
 
+
   .navbar {
     display: flex;
     flex: 1;
@@ -654,6 +672,7 @@ section {
       #menu-icon {
         display: none;
       }
+      
 
       .navbar {
         display: flex;
@@ -702,6 +721,7 @@ section {
 
     hr {
         margin-left: 5rem;
+        display: block;
     }
 
     main {
@@ -734,6 +754,7 @@ section {
         margin-left: 2rem;
         margin-top: 2rem;
     }
+
 
     .quantity-control {
         display: flex;
