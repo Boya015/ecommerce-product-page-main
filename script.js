@@ -97,7 +97,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
 atcButton.addEventListener("click", function() {
     // Step 3: Get the current value of "number-amount"
     var currentValue = parseInt(numberAmount.innerText);
@@ -114,13 +113,12 @@ atcButton.addEventListener("click", function() {
     var totalPrice = pricePerSneaker * cartItemNumber.innerText;
 
     // Step 7: Update the total price display in the modal
-    
-    amountOfSneakers.innerText = `$${pricePerSneaker.toFixed(2)} x ${cartItemNumber.innerText}`;
-
-    
+    amountOfSneakers.innerText = `$${pricePerSneaker.toFixed(2)} x ${cartItemNumber.innerText} $${totalPrice.toFixed(2)}`;
 
     // You can add additional logic for the checkout process here //
 });
+
+
 document.addEventListener("DOMContentLoaded", function() {
     // Assume you have a cartItemNumber element, you might select it like this
     
